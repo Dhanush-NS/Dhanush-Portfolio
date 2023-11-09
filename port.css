@@ -1,0 +1,458 @@
+body {
+  background-color: black;
+}
+marquee {
+  color: white;
+}
+#img3 {
+  width: 25px;
+  height: 35px;
+}
+ul li {
+  display: inline-table;
+  position: relative;
+}
+ul li a {
+  color: darkslategray;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: "Courier New", Courier, monospace;
+  margin-left: -3%;
+  border: 2px solid gray;
+  background-color: white;
+  border-radius: 5px;
+  text-align: center;
+  display: inline-table;
+  padding: 5px 20px;
+  width: 4%;
+}
+#menu {
+  position: fixed;
+}
+ul li ul.Dropdown {
+  display: inline;
+}
+ul li ul.Login {
+  display: inline;
+}
+ul li ul.Dropdown {
+  width: 100%;
+  position: absolute;
+  z-index: 100;
+  display: none;
+  /* margin-top: 20%; */
+}
+ul li ul.Login {
+  width: 100%;
+  position: absolute;
+  z-index: 100;
+  display: none;
+  /* margin-top: 20%; */
+}
+ul li a:hover {
+  background-color: black;
+  color: white;
+}
+
+.Dropdown li a {
+  color: darkslategray;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Courier New", Courier, monospace;
+  position: relative;
+  /* margin-left: 30%; */
+  /* margin-top: 20%; */
+  display: inline-table;
+  /* padding-right: 95px; */
+  padding: 7px 8px;
+}
+ul li:hover ul.Dropdown {
+  display: block;
+}
+ul li:hover ul.Login {
+  display: block;
+}
+/* .dark-mode{
+    background-color: rgb(252, 249, 249);
+    color: rgb(8, 0, 0);
+} */
+ul li a img #img3 {
+  font-size: 10px;
+  color: red;
+}
+#logo {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  margin-left: 90%;
+}
+.Home {
+  color: white;
+  background-color: yellow;
+}
+h1 {
+  color: white;
+  font-size: 95px;
+  font-style: normal;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin-left: 10%;
+  margin-top: -14%;
+  border-left: solid 80px rgb(249, 246, 246);
+  content: "";
+  margin-left: 8%;
+  border-radius: 50%;
+}
+span {
+  color: white;
+}
+span:hover {
+  color: brown;
+}
+#image1 {
+  width: 20%;
+  height: 20%;
+  border-radius: 25%;
+  margin-left: 70%;
+  margin-top: 5%;
+  border: 5px solid brown;
+  animation: animate 5s ease-in infinite;
+}
+@keyframes animate {
+  0% {
+    border: 5px outset brown;
+  }
+  20% {
+    border: 5px outset brown;
+  }
+  30% {
+    border: 5px outset brown;
+  }
+  60% {
+    border: 5px outset brown;
+  }
+  100% {
+    border: 5px outset brown;
+  }
+}
+.name {
+  color: lightgray;
+  font-size: 40px;
+  font-weight: bold;
+  margin-left: 72%;
+  margin-top: 9%;
+  font-family: "Courier New", Courier, monospace;
+}
+.line {
+  width: 3px;
+  height: 90px;
+  background-color: red;
+  margin-left: 8%;
+  margin-top: -8%;
+}
+#p {
+  margin-left: 9%;
+  margin-top: -6%;
+  color: white;
+  display: block;
+  text-align: left;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  /* line-height: 22px; */
+  overflow-wrap: break-word;
+  line-height: 30px;
+  font-size: 22px;
+}
+.Services {
+  font-size: 38px;
+  color: white;
+  margin-left: 7%;
+  margin-top: 9%;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: bold;
+}
+.serv {
+  color: white;
+  margin-left: 4.5%;
+  margin-top: 2%;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-decoration: none;
+  line-height: 15px;
+  list-style-type: circle;
+}
+.project {
+  font-size: 38px;
+  color: white;
+  margin-left: 7%;
+  margin-top: 8%;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: bold;
+}
+
+.pro {
+  color: white;
+  margin-left: 4.5%;
+  margin-top: 2%;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-decoration: none;
+  line-height: 15px;
+}
+.work {
+  color: black;
+  background-color: white;
+  width: 350px;
+  height: 140px;
+  margin-left: 68%;
+  border-radius: 8px;
+  margin-top: -17%;
+  font-size: 28px;
+  font-family: " MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+    Arial, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 3px;
+}
+.together {
+  color: black;
+  margin-left: 59%;
+  border-radius: 8px;
+  margin-top: -6.5%;
+  font-size: 20px;
+  line-height: 25px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+.chat {
+  margin-top: 1%;
+  margin-left: 71.5%;
+  font-size: 35px;
+  font-style: inherit;
+  font-weight: bolder;
+  font-family: "Courier New", Courier, monospace;
+  letter-spacing: 3px;
+}
+.chat a {
+  background-color: orangered;
+  border-radius: 10%;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: black;
+  width: 19%;
+  text-decoration: none;
+  font-family: "Courier New", Courier, monospace;
+  /* font-size: 40px; */
+  /* margin-left: 75%;
+    margin-top: 15%; */
+}
+.chat a:hover {
+  text-decoration: underline;
+}
+.contact {
+  font-size: 38px;
+  color: white;
+  margin-left: 7%;
+  margin-top: 15%;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 600px) {
+  #img3 {
+    width: 25px;
+    height: 35px;
+  }
+  ul li {
+    display: inline-table;
+    position: relative;
+  }
+  ul li a {
+    color: darkslategray;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: "Courier New", Courier, monospace;
+    margin-left: -3%;
+    border: 2px solid gray;
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+    display: inline-table;
+    padding: 5px 20px;
+    width: 4%;
+  }
+  #menu {
+    position: fixed;
+    margin-top: 2%;
+  }
+  ul li ul.Dropdown {
+    display: inline;
+  }
+  ul li ul.Login {
+    display: inline;
+  }
+  ul li ul.Dropdown {
+    width: 100%;
+    position: absolute;
+    z-index: 100;
+    display: none;
+  }
+  ul li ul.Login {
+    width: 100%;
+    position: absolute;
+    z-index: 100;
+    display: none;
+  }
+  ul li a:hover {
+    background-color: black;
+    color: white;
+  }
+
+  .Dropdown li a {
+    color: darkslategray;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Courier New", Courier, monospace;
+    position: relative;
+    display: inline-table;
+    padding: 7px 8px;
+  }
+  ul li:hover ul.Dropdown {
+    display: block;
+  }
+  ul li:hover ul.Login {
+    display: block;
+  }
+  ul li a img #img3 {
+    font-size: 10px;
+    color: red;
+  }
+
+  #logo {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    margin-left: 70%;
+    margin-top: 2%;
+  }
+  h1 {
+    font-size: 60px;
+    line-height: 50px;
+    border-left: solid 40px rgb(249, 246, 246);
+    border-radius: 100%;
+    margin-top: 28%;
+    margin-left: 17%;
+  }
+
+  #image1 {
+    width: 70%;
+    height: 100%;
+    border-radius: 25%;
+    margin-left: 13%;
+    margin-top: 28%;
+    border: 2px solid rgb(32, 199, 197);
+  }
+  .name {
+    color: lightgray;
+    font-size: 45px;
+    font-weight: bold;
+    margin-left: 18%;
+    margin-top: -40%;
+    font-family: "Courier New", Courier, monospace;
+  }
+  .line {
+    width: 3px;
+    height: 190px;
+    background-color: red;
+    margin-left: 8%;
+    margin-top: 38%;
+  }
+  #p {
+    margin-left: 12%;
+    margin-top: -37%;
+    color: white;
+    text-align: left;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    line-height: 27px;
+    text-align: left;
+  }
+  .project {
+    font-size: 38px;
+    color: white;
+    margin-left: 5%;
+    margin-top: 14%;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    font-weight: bold;
+  }
+  .pro {
+    color: white;
+    margin-left: 5%;
+    margin-top: 2.5%;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    list-style-type: disc;
+    line-height: 15px;
+  }
+  .work {
+    color: black;
+    background-color: white;
+    width: 350px;
+    height: 140px;
+    margin-left: 10%;
+    border-radius: 8px;
+    margin-top: 17%;
+    font-size: 27px;
+    font-family: " MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+      Arial, sans-serif;
+    font-weight: bold;
+    text-align: center;
+  }
+  .together {
+    color: black;
+    margin-left: -5%;
+    border-radius: 8px;
+    margin-top: -20%;
+    font-size: 20px;
+    line-height: 25px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    text-align: center;
+  }
+  .chat {
+    margin-top: 4%;
+    margin-left: 28%;
+    font-size: 35px;
+    font-weight: 500;
+    /* width: 29%; */
+  }
+}
+/****************************** this is footer code  ********************************************/
+.footer {
+  background-color: grey;
+  border-radius: 20px;
+  width: 100%;
+  color: white;
+}
+
+.footer > p {
+  text-align: center;
+  font-size: x-large;
+}
+.footer > div {
+  text-align: center;
+}
+#ps {
+  font-size: xx-large;
+  margin-top: 50px;
+  padding-top: 50px;
+}
+/****************************** this is footer end  ********************************************/
